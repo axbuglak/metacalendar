@@ -1,3 +1,4 @@
 'use strict';
 
-module.exports = {};
+const calendarEvent = require('./lib/calendar.js');
+module.exports = { ...calendarEvent };
